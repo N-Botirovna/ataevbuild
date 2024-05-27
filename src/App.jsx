@@ -1,9 +1,16 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
+import { Header } from "./assets/containers/header/Header";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <></>;
+  
+  return (
+    <>
+    <Header/>
+    </>
+      
+    
+  );
 }
 
 export default App;

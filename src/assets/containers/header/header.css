@@ -1,0 +1,36 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,rgba(36, 35, 35, 0.4),  rgba(16, 15, 15, 0.4), rgba(14, 14, 14, 0.3)),url("../../images/bg1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    padding: 1.2rem 13vw;
+}
+.logo{
+    width: 8vw;
+}
+.hero{
+    padding: 3rem 12vw;
+    margin-top: 6vh;
+}
+.title{
+    font-size: 5.5rem;
+    letter-spacing: -0.3rem;
+    line-height: 6rem;
+    font-family: var(--font-sfpro);
+    text-transform: uppercase;
+}
+.paragraph{
+    font-size: 1.4rem;
+    margin-top: 2.9rem;
+    font-weight: 600;
+}
+.btn-group{
+    gap: 1.2rem;
+    justify-content: flex-start !important;
+    margin-top: 2.7rem;
+}

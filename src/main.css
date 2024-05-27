@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap") ;
+
+:root {
+    --font-base: 'roboto-regular';
+    --font-alt: 'Space Grotesk';
+    --font-sfpro: 'SF Pro';
+    
+    --color-black: #0C0C0C;
+    --color-crimson: #fce8bd;
+    --color-white: #FFFFFF;
+    
+  }
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: var(--font-base);
+    color: var(--color-white);
+}
+
+.container{
+    width: 100%;
+}
+.btn{
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 28px;
+    color: #fff;
+    font-size: 1rem;
+    transition: 0.7s ease-in-out;
+    
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    position: relative;
+    padding: 10px;
+}
+a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    background-color: #fff;
+    width: 100%;
+    height: 2.3px;
+    transition:   0.3s ease-in-out;
+    transform: scaleX(0);
+    border-radius: 50px;
+}
+
+a:hover::before{
+    transform: scaleX(1);
+}
+ul li{
+    list-style: none;
+}
+button{
+    cursor: pointer;
+}
+.flex-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-grow: 1;
+  }
+
+select {
+    font-size: large;
+    padding-right:25px ;
+    border: none;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: var(--color-white);
+    background-color: transparent;
+  }
+option {
+    background-color:#fff;
+    color: #333;
+    margin: 8px 12px;
+  }
+  
+  select:hover option{
+    display: block;
+    background-color: #f2f2f2;
+  }
+
+
