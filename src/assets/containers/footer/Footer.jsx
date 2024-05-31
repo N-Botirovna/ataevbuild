@@ -1,6 +1,6 @@
 import { t } from "i18next";
 import React from "react";
-import logo from "../../images/logodark.png";
+import logo from "../../images/logoDark.png";
 import "./footer.css";
 import { FaInstagram } from 'react-icons/fa';4
 import { FaFacebookF } from 'react-icons/fa';
