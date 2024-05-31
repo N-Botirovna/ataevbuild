@@ -1,0 +1,9 @@
+.partners{
+    margin-top: 4rem;
+}
+.images{
+    flex-wrap: wrap;
+}
+.image{
+    width: 25%;
+}

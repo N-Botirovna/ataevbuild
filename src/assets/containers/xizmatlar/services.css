@@ -1,0 +1,24 @@
+.services{
+    padding: 2rem 12vw;
+    background-color: var(--color-crimson);
+}
+.services__wrapper{
+    flex-wrap: wrap;
+    gap: 2rem !important;
+    justify-content: space-between;
+}
+.service{
+    border-radius: 15px;
+    background-color: var(--color-dark);
+    height: 180px;
+    justify-content: space-between;
+    padding-left: 1.8rem;
+}
+.service img{
+    height: 179px;
+    object-fit: contain;
+}
+.service p{
+    font-size: 18px;
+    width: 50%;
+}

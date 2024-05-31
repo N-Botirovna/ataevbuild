@@ -1,0 +1,9 @@
+.house__holder{
+    flex-wrap: wrap;
+    width: 100%;
+}
+.house{
+    width: 33.333%;
+    height: 50vh;
+    object-fit: cover;
+}

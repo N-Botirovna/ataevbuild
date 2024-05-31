@@ -1,0 +1,43 @@
+.projects{
+    padding: 2rem 12vw;
+}
+.projects h1{
+    color: rgb(26, 26, 26);
+    font-weight: 400;
+    padding-bottom: 1.4rem;
+}
+.projects__wrapper{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+}
+.flex__item {
+    width: 47%;
+    height: 300px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  
+  .flex__item h2 {
+    font-size: 2rem;
+    line-height: 4.5rem;
+  }
+  
+  .flex__item p {
+    display: none;
+    font-size: 1.2rem;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .flex__item:hover {
+    justify-content: start;
+
+  }
+  
+  .flex__item:hover p {
+   display: block;
+    opacity: 1;
+  }

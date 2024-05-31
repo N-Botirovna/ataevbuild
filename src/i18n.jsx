@@ -6,11 +6,10 @@ import Backend from "i18next-http-backend";
 import uzTranslation from "../public/locales/uz.json";
 import ruTranslation from "../public/locales/ru.json";
 import enTranslation from "../public/locales/en.json";
-// const language = localStorage.getItem()
 
 i18n
   .use(Backend)
-//.use(languageDetector)
+
   .use(initReactI18next)
   .init({
     fallbackLng: "en",

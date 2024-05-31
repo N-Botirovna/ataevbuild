@@ -11,13 +11,19 @@
     "format": "prettier --write \"src/**/*.{js,jsx}\""
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
     "aos": "^2.3.4",
+    "axios": "^1.7.2",
     "i18next": "^23.11.5",
     "i18next-browser-languagedetector": "^8.0.0",
     "i18next-http-backend": "^2.5.2",
     "react": "^18.2.0",
+    "react-awesome-reveal": "^4.2.11",
+    "react-countup": "^6.5.3",
     "react-dom": "^18.2.0",
-    "react-i18next": "^14.1.2"
+    "react-i18next": "^14.1.2",
+    "react-icons": "^5.2.1",
+    "sweetalert2": "^11.11.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

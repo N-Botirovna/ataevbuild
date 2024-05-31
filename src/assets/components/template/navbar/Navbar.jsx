@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next';
 import "../../../containers/header/header.css"
 import logo from "../../../images/logo.png"
@@ -8,9 +8,23 @@ export default function Navbar() {
   const handleChange = (e) => {
     const selLng = e.target.value;
     i18n.changeLanguage(selLng);
+    localStorage.setItem('i18nextLng', selLng)
   };
+
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsSticky(window.pageYOffset > 120);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
-    <div className="navbar">
+    <div  className={`navbar ${isSticky ? 'sticky' : ''}`}>
         <div className="container flex-center">
         <ul className="links flex-center">
           <li>

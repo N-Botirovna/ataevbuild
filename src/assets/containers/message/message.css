@@ -1,0 +1,44 @@
+.message{
+    padding: 7rem 12vw;
+    background-color: var(--color-dark);
+}
+.message__inner{
+    background-image: url("../../images/bg-message.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 4rem 5rem;
+}
+.message__inner h2{
+    font-size: 2.2rem;
+    width: 45%;
+    margin-bottom: 3.8rem;
+}
+input{
+    display: block;
+    padding: 13px 18px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    outline: none;
+    border: none;
+    width: 45%;
+
+}
+textarea{
+    outline: none;
+    border: none;
+    width: 45%;
+    height: 9rem;
+    border-radius: 12px;
+    padding: 13px;
+    margin-bottom: 3rem;
+}
+.btn__message{
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    padding: 0.7rem 3.3rem !important;
+}
+.btn__message:hover{
+    background-color: transparent !important;
+    color: var(--color-white) !important;
+}
