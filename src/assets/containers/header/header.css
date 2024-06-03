@@ -13,6 +13,9 @@
     z-index: 5;
     transition: all 0.3s ease-in-out;
 }
+.navbar select{
+    color: #fff !important;
+}
 /*  */
 .navbar.sticky {
     position: fixed;
